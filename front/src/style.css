@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.estoque_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.relatorios_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: -4px;
+}
+
+.select_containers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+select {
+    background-color: rgb(195, 195, 195);
+    border: 1px solid rgb(111, 111, 111);
+    border-radius: 8px;
+    width: 150px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #1862c4;
+    border: 1px solid #0a3099;
+    color: white;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+input {
+    border:1px solid rgb(111, 111, 111);
+    border-radius: 8px;
+    width: 180px;
+    height: 25px;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 315px;
+    height: 100px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.botao_relatorios {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-10px, 10px);
+}
