@@ -1,5 +1,5 @@
 {
-  "name": "front-bookshop",
+  "name": "front",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -16,7 +16,6 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "axios": "^1.12.1",
     "vue": "^3.5.18"
   },
   "devDependencies": {

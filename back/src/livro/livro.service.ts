@@ -13,7 +13,7 @@ export class LivroService {
         `INSERT INTO livro (isbn, titulo, genero, ano_publicacao, id_autor, id_editora)
          VALUES ($1, $2, $3, $4, $5, $6)
          RETURNING *`
-
+         
     try { return await this.databaseService.databaseAccess(query, values) }
     
     catch (error) { throw error }

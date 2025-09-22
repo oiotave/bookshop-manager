@@ -8,7 +8,7 @@ dotenv.config()
 @Injectable()
 export class DatabaseService implements OnModuleInit {
   private pool: Pool;
-
+  
   constructor() {
     this.pool = new Pool({
         user: process.env.DB_USER,
