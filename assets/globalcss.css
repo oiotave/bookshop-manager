@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
+
+:root {
+    --dark-moss-green: #606c38ff;
+    --pakistan-green: #283618ff;
+    --cornsilk: #fefae0ff;
+    --earth-yellow: #dda15eff;
+    --tigers-eye: #bc6c25;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p, input, h2, label, button, a, select, option {
+    font-family: 'Cagliostro', sans-serif;
+}
+
+.logo-tipo {
+    border-radius: 25px;
+    text-align: center;
+    width: 33%;
+}
+
+.std-button {
+    background-color: var(--earth-yellow);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 170px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.std-button:hover {
+    background-color: white;
+    border: 3px solid var(--earth-yellow);
+    color: var(--earth-yellow);
+}
+
+.std-input {
+    padding-left: 10px;
+    border: 2px solid var(--earth-yellow);
+    border-radius: 24px;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+.std-input:focus {
+    outline: none;
+    border: 2px solid var(--earth-yellow);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--earth-yellow);
+    caret-color: var(--earth-yellow);
+}
+
+.back-button {
+    background-color: transparent;
+    color: var(--earth-yellow);
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.std-select {
+    background-color: var(--dark-moss-green);
+    color: var(--cornsilk);
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    height: 30px;
+}
+
+.std-select:focus {
+    outline: none;
+}
