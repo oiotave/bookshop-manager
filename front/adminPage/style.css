@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 12px 0 0 0;
+    padding: 0;
+    gap: 12px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.estoque_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 12px;
+}
+
+.relatorios_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 12px;
+}
+
+h1 span {
+    border-radius: 5px;
+    background-color: var(--dark-moss-green);
+    color: var(--pakistan-green);
+    padding: 5px;
+}
+
+#titulo {
+    margin: 12px 0;
+}
+
+.select_containers {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 13px;
+}
+
+textarea {
+    width: 315px;
+    height: 100px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.div-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+    gap: 12px;
+}
+
+.modo-button {
+    background-color: var(--dark-moss-green);
+    color: var(--cornsilk);
+    border: none;
+    border-radius: 25px;
+    height: 30px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.modo-button:hover {
+    transform: scale(1.05);
+}
+
+.modo-button:disabled {
+    background-color: var(--pakistan-green);
+    color: var(--dark-moss-green);
+    height: 25px;
+    width: 110px;
+    font-size: 13px;
+}
+
+.botao_relatorios {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-10px, 10px);
+}
